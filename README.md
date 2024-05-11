@@ -74,3 +74,7 @@ If you're still having trouble, feel free to [open an issue](https://github.com/
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/imakim03/yes-or-no-wheel-app/blob/main/LICENSE) file for details.
+
+## Contact
+
+For support, feedback, or inquiries, please contact me at kiimissi.imane@gmail.com.
