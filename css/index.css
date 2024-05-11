@@ -1,0 +1,78 @@
+body{
+    background-image: url("../images/bg.jpg");
+    overflow-x: hidden;
+}
+#wheel{
+    transition: transform 0.5s ease-out;
+}
+.wheel_center{
+    position: absolute;
+    top: 107px;
+    left: 109px;
+    font-size: 20pt;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.arrow{
+    position: absolute;
+    top: 93px;
+    left: 205px;
+    font-size: 20pt;
+    transform: rotate(180deg);
+}
+#inputs,#spin{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: .375em;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    font-family: "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#inputs{
+    width: 150px;
+}
+#inputs:focus{
+    border-color: #485fc7;
+    outline: 0;
+}
+#spin{
+    cursor: pointer;
+    display: inline-flex;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+#spin:active {
+border-color: #000;
+outline: 0;
+}
+
+#spin:focus {
+border-color: #485fc7;
+outline: 0;
+}
+
+#spin:hover {
+border-color: #b5b5b5;
+}
+
+#spin:focus:not(:active) {
+box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+#result{
+    font-size: 2rem;
+    width: 220px;
+    color: rgb(145, 88, 210);
+    text-align: center;
+    font-weight: bold;
+    font-family: "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #FCFAFD;
+}

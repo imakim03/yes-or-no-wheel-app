@@ -1,0 +1,4 @@
+# Ignore built executable files
+*.exe
+# Ignore directories containing build artifacts
+/dist/

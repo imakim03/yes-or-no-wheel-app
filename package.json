@@ -1,0 +1,27 @@
+{
+  "name": "yes-or-no-wheel",
+  "version": "1.0.0",
+  "productName": "Yes Or No",
+  "description": "An application that allows you to spin a wheel to get either yes or no",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder"
+  },
+  "author": "Imane Kimissi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.2.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.example.yes-or-no-app",
+    "productName": "Yes Or No",
+    "directories": {
+        "output": "dist"
+    },
+    "win": {
+        "icon": "./images/flower-256.ico"
+    }
+}
+}
